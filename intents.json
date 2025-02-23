@@ -1,0 +1,957 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "hii",
+        "h",
+        "greetings",
+        "what's up?",
+        "how is it going?",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "namaste",
+        "hi there!",
+        "hey there!",
+        "hello friend",
+        "what's new?",
+        "howdy!"
+      ],
+      "responses": [
+        "Hello! I'm here to help you learn about digital frauds.",
+        "Hi there! How can I assist you with digital safety today?",
+        "Greetings! Kya help karu digital fraud se bachne ke liye?",
+        "Namaste! Aapko digital fraud ke baare me kya jaan'na hai?",
+        "Hey! Mujhe batao aapki kya query hai digital safety se related.",
+        "Hi! Ready to learn about protecting yourself from fraud?",
+        "Hello! Let's talk about how to stay safe in the digital world.",
+        "Hi! Aapka digital security expert yahaan hai!",
+        "Greetings! Digital fraud ke baare mein seekhne ke liye tayar hain?"
+      ]
+    }
+    ,
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "name",
+        "what's your name",
+        "who are you",
+        "what should I call you",
+        "tumhara naam kya hai",
+        "aapka naam kya hai?",
+        "may I know your name?",
+        "what do people call you?",
+        "kaun ho tum?",
+        "tumhe kya bolun?",
+        "apni pehchaan do"
+      ],
+      "responses": [
+        "You can call me DSS BOT.",
+        "I'm DSS BOT, your digital safety assistant.",
+        "Mujhe DSS BOT bula sakte ho, main aapki digital safety mein madad karunga.",
+        "Main DSS BOT hoon, digital duniya mein aapki suraksha ke liye tayar.",
+        "Call me DSS BOT, your guide to staying safe online.",
+        "I'm DSS BOT, helping you stay protected from frauds.",
+        "Mera naam DSS BOT hai, aur main aapko digital fraud se bachaane ke liye hoon.",
+        "You can call me your Digital Safety Companion  DSS BOT!",
+        "DSS BOT, at your service for all things digital safety."
+      ]
+    }
+    ,
+    {
+      "tag": "what_is_fraud",
+      "patterns": [
+        "what is digital fraud",
+        "what is digital arrest",
+        "define digital fraud",
+        "explain digital fraud",
+        "digital fraud kya hota hai?",
+        "online fraud kya hota hai?",
+        "what do you mean by digital fraud?",
+        "digital fraud ka matlab kya hai?",
+        "fraud ka matlab samjhao",
+        "fraud kise kehte hain?",
+        "online dhokha kya hai?",
+        "explain fraud in digital terms",
+        "digital scam kya hota hai?",
+        "what's digital scamming?",
+        "digital dhokha kya hota hai?"
+      ],
+      "responses": [
+        "Digital fraud refers to any illegal activity carried out online to deceive people or steal their money, data, or identity.",
+        "Digital fraud matlab online dhokha, jisme scammers aapka paisa ya data churane ki koshish karte hain.",
+        "Digital fraud is an attempt to cheat individuals via online platforms for financial or personal gain.",
+        "Online fraud ka matlab hai kisi ko online platform pe dhokha dekar uska paisa ya personal information churana.",
+        "Digital fraud involves malicious activities like phishing, identity theft, or online scams to harm individuals or organizations.",
+        "Digital dhokha ek tarah ka cyber crime hai, jisme log apka data ya paisa chura kar misuse karte hain.",
+        "It is an act of using online tools to manipulate or deceive someone for unlawful benefits.",
+        "Digital fraud ka arth hai aapka data, paisa, ya identity ko galat tareeke se churaana ya misuse karna.",
+        "Scammers often use methods like fake websites, phishing emails, or social engineering to commit digital fraud.",
+        "Digital fraud ke madhyam se log aapko gumrah karte hain aur financial ya data-related damage pahunchate hain."
+      ]
+    }
+    ,
+    {
+      "tag": "types_of_fraud",
+      "patterns": [
+        "what are the types of digital fraud",
+        "different types of fraud",
+        "fraud types",
+        "digital fraud ke types kya hain?",
+        "online fraud ke alag-alag types kya hain?",
+        "types of online scams",
+        "how many types of digital frauds are there?",
+        "fraud ke types samjhao",
+        "digital fraud ke prakar kya hain?",
+        "scam types batao",
+        "cyber fraud ke prakar",
+        "online fraud ke prakar",
+        "different categories of fraud",
+        "fraud kitne prakar ke hote hain?"
+      ],
+      "responses": [
+        "Some common types of digital fraud include:\n1. Phishing\n2. Identity Theft\n3. Online Shopping Scams\n4. Credit Card Fraud\n5. Fake Tech Support\n6. Social Media Scams\n7. Investment Scams",
+        "Digital fraud ke common types hain:\n1. Phishing\n2. Identity Theft\n3. Fake Online Shopping\n4. Credit Card Fraud\n5. Nakli Tech Support\n6. Social Media Frauds\n7. Investment Scams",
+        "Here are some examples of digital fraud:\n1. Phishing Attacks (Fake Emails/Links)\n2. Identity Theft\n3. E-commerce Scams\n4. Financial Frauds\n5. Romance Scams\n6. Fake Apps or Software\n7. Lottery or Prize Scams",
+        "Online fraud ke alag types hain:\n1. Phishing Emails\n2. Credit/Debit Card Fraud\n3. Job Scams\n4. Fake Charities\n5. Malware Attacks\n6. Investment Frauds\n7. Social Media Impersonation",
+        "Some digital fraud types you should know:\n1. Email Scams\n2. Ransomware\n3. SIM Card Swapping\n4. Fake Bank Calls\n5. Loan Scams\n6. Crypto Scams\n7. Fake Reviews or Listings",
+        "Digital fraud ke pramukh prakar:\n1. Phishing\n2. Data Breach\n3. Fake Tech Support Calls\n4. Online Shopping Fraud\n5. Money Transfer Scams\n6. Social Engineering\n7. Pyramid Schemes"
+      ]
+    }
+    ,
+    {
+      "tag": "phishing",
+      "patterns": [
+        "what is phishing",
+        "explain phishing",
+        "how does phishing work",
+        "phishing kya hota hai?",
+        "phishing ka matlab kya hai?",
+        "phishing scams kya hote hain?",
+        "what do you mean by phishing?",
+        "phishing attack kya hota hai?",
+        "how do phishing scams work?",
+        "how to identify phishing?",
+        "phishing ke examples kya hain?"
+      ],
+      "responses": [
+        "Phishing is a type of fraud where scammers impersonate trusted entities to steal sensitive information like passwords or credit card numbers through fake emails, websites, or messages.",
+        "Phishing fraud mein scammers nakli email ya website ke through aapka personal data chura lete hain, jaise password aur card details.",
+        "Phishing is a cybercrime where attackers pretend to be legitimate organizations to steal your sensitive data via fake emails or links.",
+        "Phishing ka matlab hai kisi trusted source ka nakli roop lekar aapki personal information ko churaana, jaise login details ya bank account info.",
+        "In phishing, attackers send fraudulent messages (emails or SMS) that appear to come from a trustworthy source, tricking people into revealing personal data.",
+        "Phishing scams involve creating fake websites or emails that look real to deceive users into sharing sensitive information.",
+        "Phishing ek tarah ka cyber fraud hai jisme log trusted sources ban kar galat links ya messages ke zariye aapka data churaane ki koshish karte hain.",
+        "Scammers use phishing to trick users into clicking malicious links or sharing confidential information like OTPs, credit card details, or login credentials.",
+        "Phishing attacks often involve urgent or fear-inducing messages to make people act quickly without verifying the source.",
+        "Phishing fraud mein attackers generally fake an email from a bank or e-commerce site to steal sensitive data."
+      ]
+    }
+    ,
+    {
+      "tag": "prevention_tips",
+      "patterns": [
+        "how to avoid digital fraud",
+        "tips to prevent fraud",
+        "digital fraud prevention",
+        "online fraud avoid karne ke tips",
+        "how to stay safe from fraud?",
+        "online fraud ke prevention tips",
+        "digital safety tips",
+        "cyber fraud se bachne ke tips",
+        "how to protect myself from fraud?",
+        "digital scams avoid karne ke tarike"
+      ],
+      "responses": [
+        "Here are some tips to prevent digital fraud:\n1. Use strong, unique passwords.\n2. Avoid clicking on suspicious links.\n3. Enable two-factor authentication.\n4. Verify the source of messages or calls asking for personal information.\n5. Regularly monitor your bank statements.",
+        "Digital fraud se bachne ke liye tips:\n1. Strong aur alag passwords rakhein.\n2. Suspicious links pe click mat karein.\n3. Two-factor authentication use karein.\n4. Messages aur calls ka source verify karein.\n5. Apni bank statements regular check karein.",
+        "Protect yourself from digital fraud with these tips:\n1. Don’t share OTPs or sensitive information over phone or email.\n2. Always check the URL before entering personal details.\n3. Avoid using public Wi-Fi for financial transactions.\n4. Keep your devices updated with the latest security patches.\n5. Educate yourself about common scam techniques.",
+        "Fraud prevent karne ke liye:\n1. OTP ya passwords kisi ke saath share na karein.\n2. Websites ka URL check karein.\n3. Public Wi-Fi pe banking transactions avoid karein.\n4. Apne devices ko hamesha updated rakhein.\n5. Fake messages aur calls ka samajhdari se samna karein.",
+        "To avoid online scams:\n1. Install antivirus software and keep it updated.\n2. Avoid downloading attachments from unknown emails.\n3. Report suspicious activities immediately.\n4. Use secure payment methods for online shopping.\n5. Stay informed about the latest fraud trends.",
+        "Digital fraud avoid karne ke upay:\n1. Verified websites aur apps ka hi use karein.\n2. Unknown sources ke emails ke attachments na download karein.\n3. Suspicious activities ko turant report karein.\n4. Online shopping ke liye secure payment methods ka use karein.\n5. Fraud ke naye tarike samajhne ke liye updated rahen."
+      ]
+    }
+    ,
+    {
+      "tag": "secure_payments",
+      "patterns": [
+        "how to make secure online payments",
+        "safe payment tips",
+        "online payment safety",
+        "online payment ke liye safety tips",
+        "digital payment ke liye tips",
+        "online transactions safe banane ke tarike",
+        "secure online payments tips",
+        "safe payment methods"
+      ],
+      "responses": [
+        "To make secure online payments:\n1. Use trusted payment gateways.\n2. Avoid using public Wi-Fi for transactions.\n3. Verify website security (look for HTTPS).\n4. Enable transaction alerts from your bank.",
+        "Secure payments ke liye tips:\n1. Sirf trusted payment gateways use karein.\n2. Public Wi-Fi pe transactions na karein.\n3. Website pe HTTPS ka check karein.\n4. Bank ke transaction alerts enable karein.",
+        "For secure online payments:\n1. Use credit cards instead of debit cards for online transactions.\n2. Always log out of payment websites after completing transactions.\n3. Avoid saving card details on e-commerce platforms.\n4. Check for 'lock' icons in the address bar before entering payment details.",
+        "Safe payment tips:\n1. Credit card ka use karein, debit card se zyada secure hota hai.\n2. Transaction complete hone ke baad logout karna na bhoolein.\n3. Online shopping websites pe apne card details save mat karein.\n4. Payment karte samay browser ke address bar me lock icon check karein.",
+        "To ensure online payment safety:\n1. Use virtual cards or payment wallets for added security.\n2. Avoid clicking on payment links from unknown sources.\n3. Keep your banking apps updated.\n4. Set transaction limits on your cards.",
+        "Digital payment secure banane ke tarike:\n1. Virtual card ya wallets ka use karein.\n2. Unknown sources se aaye payment links pe click na karein.\n3. Banking apps ko hamesha updated rakhein.\n4. Apne cards par transaction limits set karein.",
+        "Always follow these steps for secure payments:\n1. Use two-factor authentication for every transaction.\n2. Check the SMS or email notifications for suspicious transactions.\n3. Avoid using shared or public devices for payments.\n4. Regularly update your payment credentials.",
+        "Online payments ko secure banane ke liye:\n1. Har transaction ke liye two-factor authentication enable karein.\n2. Suspicious transactions ke liye SMS/email notifications check karein.\n3. Shared ya public devices ka use avoid karein.\n4. Apne payment credentials ko regularly update karein."
+      ]
+    }
+    ,
+    {
+      "tag": "report_fraud",
+      "patterns": [
+        "how to report fraud",
+        "report digital fraud",
+        "what to do if I am scammed",
+        "digital fraud report karne ka process",
+        "scam hone par kya karein?",
+        "where to report digital fraud?",
+        "fraud ke baad kya karna chahiye?",
+        "how can I report a scam?",
+        "fraud ka report kahan karein?",
+        "digital scam report karna hai",
+        "how to report phishing scams?"
+      ],
+      "responses": [
+        "If you've been a victim of fraud:\n1. Report it to your local cybercrime cell.\n2. Contact your bank to block suspicious transactions.\n3. Report phishing emails to 'phishing-report@domain.com'.",
+        "Agar aap fraud ke victim hain:\n1. Apne local cybercrime cell mein report karein.\n2. Bank se contact karke suspicious transactions block karein.\n3. Phishing emails 'phishing-report@domain.com' par bhejein.",
+        "Steps to report fraud:\n1. File a complaint on the National Cyber Crime Reporting Portal (cybercrime.gov.in).\n2. Call the cybercrime helpline at 1930 in India.\n3. Inform your bank or payment service provider immediately.",
+        "Fraud report karne ke liye:\n1. National Cyber Crime Reporting Portal par complaint file karein (cybercrime.gov.in).\n2. Cybercrime helpline 1930 (India) par call karein.\n3. Apne bank ya payment provider ko turant inform karein.",
+        "If scammed, take these steps:\n1. Lodge a complaint with your regional cybercrime police station.\n2. Change passwords for all your online accounts.\n3. Inform your financial institution about the fraud.",
+        "Scam hone par yeh karein:\n1. Apne region ke cybercrime police station mein report karein.\n2. Apne sabhi online accounts ke passwords change karein.\n3. Fraud ke baare mein apne financial institution ko notify karein.",
+        "To report a digital scam:\n1. Submit evidence like screenshots or emails to the authorities.\n2. Use the designated online fraud reporting platforms in your country.\n3. Block the scammer's contact information immediately.",
+        "Digital scam report karne ke liye:\n1. Screenshots aur emails jaise evidence authorities ko submit karein.\n2. Apne country ke fraud reporting platform ka use karein.\n3. Scammer ke contact ko turant block karein.",
+        "You can report phishing scams:\n1. Forward phishing emails to your email service provider.\n2. Notify your IT security team if it’s a workplace issue.\n3. Inform the website or app involved to investigate further."
+      ]
+    }
+    ,    
+    {
+      "tag": "examples",
+      "patterns": [
+        "give examples of digital fraud",
+        "examples of scams",
+        "fraud scenarios",
+        "online fraud ke examples",
+        "examples of cyber frauds",
+        "digital fraud kya hota hai examples ke saath?",
+        "fraud ke kuch examples batao",
+        "examples of online scams",
+        "fraud hone ke scenarios kya hote hain?",
+        "digital scam ke examples",
+        "give some real-life examples of fraud"
+      ],
+      "responses": [
+        "Here are some examples:\n1. An email claiming you've won a lottery and asking for personal information.\n2. Fake tech support calling to 'fix' your computer.\n3. A job offer asking for an upfront payment.\n4. Fake online stores offering deals too good to be true.",
+        "Digital fraud ke examples:\n1. Lottery jeetne ka nakli email jo aapse personal information maange.\n2. Fake tech support ka call.\n3. Job offer jo advance payment maange.\n4. Online shopping offers jo reality mein possible nahi lagte.",
+        "Examples of digital fraud:\n1. Phishing emails pretending to be from your bank.\n2. Scammers creating fake social media profiles to trick users.\n3. A message claiming you've won a prize and asking for OTP verification.\n4. Fake apps that steal your data once installed.",
+        "Digital fraud ke kuch aur examples:\n1. Bank ke naam par phishing email.\n2. Fake social media profiles jo logon ko dhokha dete hain.\n3. Ek message jo prize jeetne ka claim kare aur OTP maange.\n4. Nakli apps jo aapka data chura lein.",
+        "Real-life fraud examples:\n1. Receiving a fake invoice for a service you never subscribed to.\n2. Investment scams promising high returns with no risks.\n3. A fake courier service asking for payment to deliver a package.\n4. Fraudulent charity requests during a disaster or crisis.",
+        "Kuch aur fraud ke examples:\n1. Nakli invoice jo kisi unknown service ke liye aaye.\n2. Investment scams jo unrealistic high returns ka wada karein.\n3. Ek fake courier service jo package deliver karne ke liye payment maange.\n4. Disasters ke time pe fraudulent charity requests.",
+        "Common digital scam scenarios:\n1. Impersonation scams where someone pretends to be your friend or family member asking for money.\n2. Fake dating profiles that manipulate people into sending money.\n3. A fake loan offer with hidden high-interest rates.\n4. QR code scams that steal money when scanned.",
+        "General fraud ke examples:\n1. Kisi apne ban kar paise maangne waale impersonation scams.\n2. Fake dating profiles jo emotional manipulation karte hain.\n3. Nakli loan offers jo hidden high-interest rate charge karte hain.\n4. QR code scams jo scan karte hi aapka paisa chura lete hain."
+      ]
+    }
+    ,
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "that's helpful",
+        "awesome, thanks",
+        "thanks for helping me",
+        "thank you so much",
+        "I appreciate it",
+        "thanks for the information",
+        "thanks a lot",
+        "really appreciate your help",
+        "this is helpful, thank you",
+        "I'm grateful, thanks"
+      ],
+      "responses": [
+        "You're welcome! Stay safe online.",
+        "Happy to help! Be cautious online.",
+        "Koi baat nahi! Online safe rahiye.",
+        "It's my pleasure! Keep your digital life secure.",
+        "Anytime! Make sure to stay protected.",
+        "You're very welcome! Take care and be safe online.",
+        "Glad I could help! Be mindful of online safety."
+      ]
+    }
+    ,
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "by",
+        "goodbye",
+        "see you",
+        "talk to you later",
+        "catch you later",
+        "take care",
+        "see you soon",
+        "bye for now",
+        "I'm leaving now",
+        "till next time",
+        "goodbye for now"
+      ],
+      "responses": [
+        "Goodbye! Stay vigilant against fraud.",
+        "Take care! Always verify before you trust.",
+        "Bye! Dhyan rakhein aur fraud se bachein.",
+        "See you! Stay safe online and stay cautious.",
+        "Farewell! Keep your digital safety in check.",
+        "Talk to you later! Protect your personal data.",
+        "Goodbye! Keep your passwords strong and safe.",
+        "Till next time! Stay aware of online scams."
+      ]
+    }
+    ,
+    {
+      "tag": "affirmative",
+      "patterns": [
+        "ok sure",
+        "okay",
+        "ok",
+        "ohk",
+        "okk",
+        "achha",
+        "acha",
+        "oo",
+        "yes bilkul",
+        "absolutely",
+        "definitely",
+        "ok fine"
+      ],
+      "responses": [
+        "Great, let's continue!",
+        "Nice, moving forward!"
+      ]
+    },
+    {
+      "tag": "mistake",
+      "patterns": [
+        "jaise vo mistake krra",
+        "maine galat kiya",
+        "ye mera error hai",
+        "ye mera mistake tha",
+        "sorry yeh galti ho gayi"
+      ],
+      "responses": [
+        "No worries, mistakes happen!",
+        "It's okay, we learn from mistakes!",
+        "Don't worry, we can fix it."
+      ]
+    },
+    {
+      "tag": "clarification",
+      "patterns": [
+        "toh yeh kya matlab hai?",
+        "mujhe samajh nahi aaya",
+        "kya yeh sahi hai?",
+        "isko thoda samjhao",
+        "isliye yeh kya ho raha hai?"
+      ],
+      "responses": [
+        "Main aapko samjhata hoon.",
+        "Thoda aur explain karta hoon.",
+        "Ye hai jo ho raha hai."
+      ]
+    },
+       {
+      "tag": "digital_fraud_update",
+      "patterns": [
+        "abhi digital fraud me kya naya ho raha hai?",
+        "abhi naye tareeke se fraud ho rahe hain kya?",
+        "digital fraud ke naye trends kya hain?",
+        "digital fraud kaafi badh gaya hai, ab kya ho raha hai?"
+      ],
+      "responses": [
+        "Haan, abhi digital fraud me naye methods aa rahe hain, jaise ki phishing attacks aur fake websites.",
+        "Abhi digital fraud me social engineering kaafi increase hua hai. Log apni personal details de dete hain.",
+        "Naye scam ho rahe hain jisme logon ko fake calls aati hain aur wo apni bank details de dete hain.",
+        "Digital fraud me new ways aa gaye hain, jaise ki fake job offers, lottery scams, aur online shopping frauds.",
+        "Digital fraud me ab log email aur SMS ke through scam kar rahe hain. Always be cautious of unknown links!"
+      ]
+    },
+    
+    {
+      "tag": "digital_fraud_report",
+      "patterns": [
+        "maine digital fraud ka samna kiya hai, ab kya karu?",
+        "digital fraud ka case kisko report karein?",
+        "mere account se paisa gaya hai, kya karna chahiye?",
+        "online fraud ki complaint kisko deni chahiye?"
+      ],
+      "responses": [
+        "Agar aapne fraud notice kiya hai, toh turant apne bank se contact karein aur account block karne ko kahe.",
+        "Online fraud ko aap police ko report kar sakte hain, ya cyber crime cell ko bhi contact kar sakte hain.",
+        "Aap apne local police station ya online portal ke through complaint file kar sakte hain.",
+        "Fraud hone par apne bank ko immediately inform karna zaroori hai taaki unka action jaldi ho sake.",
+        "Aap cyber crime portal par bhi complaint register kar sakte hain."
+      ]
+    },
+    {
+      "tag": "digital_fraud_education",
+      "patterns": [
+        "digital fraud ke baare me thoda batayein?",
+        "digital fraud kya hota hai?",
+        "cyber fraud ke baare me jankari chahiye?",
+        "digital fraud ke common types kya hain?"
+      ],
+      "responses": [
+        "Digital fraud ya cyber fraud mein kisi ko aapke personal ya financial details ke through fraud karna hota hai.",
+        "Ismein phishing, fake websites, aur malicious apps ka use kiya jata hai.",
+        "Kuch common frauds mein fake job offers, lottery scams, aur identity theft shamil hain.",
+        "Aap apne details ko safe rakh kar aur unknown sources se bach kar fraud se bach sakte hain.",
+        "Hamesha apne financial transactions ko secure websites par karein aur apne details ko anonymous rakhein."
+      ]
+    },
+    {
+      "tag": "invalid",
+      "patterns": [
+        "",
+        "asdf",
+        "gibberish",
+        "12345",
+        "!!!!!!",
+        "???????",
+        "random text",
+        "xyz",
+        "what?",
+        "huh?",
+        "uhhhh",
+        "lol",
+        "qwerty",
+        "unknown input",
+        "can't understand",
+        "don't know"
+      ],
+      "responses": [
+        "I'm sorry, I didn't understand that. Can you please rephrase?",
+        "Could you please clarify your question?",
+        "Samajh nahi aaya. Kya aap apna question phir se bata sakte hain?",
+        "Sorry, I didn't catch that. Could you ask in a different way?",
+        "I didn't quite get that. Can you rephrase, please?",
+        "Oops! I didn't understand. Please try again.",
+        "I'm afraid I don't understand. Could you rephrase your question?",
+        "Sorry, I didn't understand. Can you please clarify?"
+      ]
+ }
+ ,
+  {
+    "tag": "online_fraud_protection",
+    "patterns": [
+      "Online fraud ke measures kya hain?"
+    ],
+    "responses": [
+      "Online fraud se bachne ke liye aapko apne password aur OTP kisi ke saath share nahi karne chahiye.",
+      "Unknown links par click karne se bachein aur sirf trusted websites ka use karein.",
+      "Aapka antivirus software update rakhein aur apne system ko secure karein.",
+      "Unknown calls ya messages ke through personal details na dein.",
+      "Secure aur encrypted payment gateways ka use karein."
+    ]
+  },
+  {
+    "tag": "safe_online_payment",
+    "patterns": [
+      "Safe online payment karne ke liye kya karna chahiye?",
+      "Payment karte waqt kya dhyan rakhein?",
+      "Safe online transactions ke tips kya hain?"
+    ],
+    "responses": [
+      "Payment karte waqt sirf trusted aur verified payment methods ka use karein.",
+      "Secure websites ka use karein, jinka URL 'https://' se shuru hota ho.",
+      "Public Wi-Fi use karte samay payments avoid karein.",
+      "2-factor authentication enable karein.",
+      "Apne bank ki transaction notifications enable rakhein."
+    ]
+  },
+  {
+    "tag": "protect_personal_information",
+    "patterns": [
+      "Data safety ke tips kya hain?",
+      "Personal information protect karne ke tarike kya hain?"
+    ],
+    "responses": [
+      "Aapko apne passwords strong aur unique banane chahiye.",
+      "Sensitive information kisi public platform par share na karein.",
+      "Unknown emails ya links par click karne se bachein.",
+      "Regularly apni privacy settings check karein.",
+      "Secure cloud services ka use karein apne data ke liye."
+    ]
+  },
+  {
+    "tag": "public_wifi_safety",
+    "patterns": [
+      "Public Wi-Fi ka use karte samay kin baaton ka dhyan rakhna chahiye?",
+      "Public network use karte waqt kya avoid karein?",
+      "Wi-Fi security ke measures kya hain?"
+    ],
+    "responses": [
+      "Public Wi-Fi par banking ya sensitive information access na karein.",
+      "VPN ka use karein apne data ko encrypt karne ke liye.",
+      "Auto-connect features ko disable rakhein.",
+      "Unknown networks ya free Wi-Fi avoid karein.",
+      "HTTPS websites ka use karein browsing ke liye."
+    ]
+  },
+  {
+    "tag": "post_fraud_steps",
+    "patterns": [
+      "Agar mujhe fraud ka samna karna pade to mujhe kya karna chahiye?",
+      "Fraud hone par kya steps lene chahiye?",
+      "Fraud ke baad kya karna chahiye?",
+      "Mujhe fraud hone par turant kya karna chahiye?",
+      "Fraud hone par kahan report karen?"
+    ],
+    "responses": [
+      "Fraud hone par sabse pehle apne bank ko turant inform karein.",
+      "Apne bank account ya card ko block karne ke liye apne bank se contact karein.",
+      "Cybercrime portal par complaint file karein aur apne case ki details de.",
+      "Aap apne local police station mein bhi complaint file kar sakte hain.",
+      "Apne documents aur evidence ko sambhal kar rakhein jo fraud ke sambandh mein ho."
+    ]
+  },
+  {
+    "tag": "cybercrime_portal_complaint",
+    "patterns": [
+      "Cybercrime website par kis tarah report karein?",
+      "Complaint file karte waqt kya details deni chahiye?",
+      "Cybercrime portal par complaint karne ka process kya hai?"
+    ],
+    "responses": [
+      "Cybercrime portal par complaint file karne ke liye aapko apna naam, address, aur fraud se judi saari details deni hoti hain.",
+      "Aapko apni identity proof aur fraud ka evidence bhi upload karna hoga.",
+      "Portal par online complaint form bharna hota hai, jisme aapko fraud ke bare mein poori jankari deni hoti hai.",
+      "Portal ka link www.cybercrime.gov.in hai, jahan aap apna complaint register kar sakte hain."
+    ]
+  },
+  {
+    "tag": "inform_bank_after_fraud",
+    "patterns": [
+      "Kya mujhe apne bank ko turant inform karna chahiye?",
+      "Fraud hone par bank ko turant inform karna zaroori hai?",
+      "Fraud ke baad bank ko turant kyun inform karein?",
+      "Fraud hone par apne bank ko kya batana chahiye?",
+      "Fraud hone ke baad bank ko kab batayein?"
+    ],
+    "responses": [
+      "Haan, fraud hone ke turant baad apne bank ko inform karna zaroori hai.",
+      "Bank ko jaldi inform karne se aap apne account ko block kar sakte hain aur further losses se bacha ja sakta hai.",
+      "Bank ko fraud ke bare mein batane par wo aapke account ko secure karenge aur fraud ka investigation shuru karenge.",
+      "Agar aapka debit ya credit card fraud mein use hua ho, to usse turant block karwana zaroori hai."
+    ]
+  }
+  ,
+    {
+      "tag": "government_laws_fraud",
+      "patterns": [
+        "Digital fraud ke liye government ke kya kanoon hain?",
+        "Fraud ke liye government ke kaunse laws hain?",
+        "Cyber fraud ke liye kanoon kya hain?",
+        "Digital fraud par government ka kya action hai?",
+        "Government ka fraud prevention ke liye kya stand hai?"
+      ],
+      "responses": [
+        "Digital fraud ke liye IT Act, 2000 ke under strict laws hain, jo online fraud aur cybercrime ko address karte hain.",
+        "IT Act ke section 66C aur 66D ke tehat cybercrimes jaise identity theft aur fraud ke liye saza di ja sakti hai.",
+        "Cyber crime ke liye Indian Penal Code (IPC) ke under bhi kayi provisions hain, jaise Section 420 jo cheating aur fraud se related hai.",
+        "Government ne cybercrime aur fraud ke liye specific helplines aur online complaint portals bhi banaye hain."
+      ]
+    },
+    {
+      "tag": "cybercrime_tollfree_number",
+      "patterns": [
+        "Cybercrime ke liye toll-free number kya hai?",
+        "Cybercrime reporting ke liye helpline number kya hai?",
+        "Fraud ka samna karte waqt kis number par call karein?",
+        "Cybercrime ke liye kis se sampark karein?",
+        "Cybercrime complaint ke liye kya number hai?"
+      ],
+      "responses": [
+        "Cybercrime ke liye toll-free helpline number 1930 hai.",
+        "Aap 1930 par call karke apni cybercrime related complaint register kar sakte hain.",
+        "Cybercrime se related complaints ko report karne ke liye aap www.cybercrime.gov.in website ka use bhi kar sakte hain."
+      ]
+    },
+    {
+      "tag": "rbi_guidelines_fraud_prevention",
+      "patterns": [
+        "RBI guidelines kya kehti hain fraud prevention ke liye?",
+        "Fraud prevention ke liye RBI ke kya rules hain?",
+        "RBI ke fraud prevention guidelines kya hain?",
+        "Fraud ke liye RBI ki latest guidelines kya hain?"
+      ],
+      "responses": [
+        "RBI ki guidelines ke mutabik, customers ko apne ATM pins aur passwords ko confidential rakhna chahiye.",
+        "RBI ne banks ko mandatory banaya hai ki wo customers ko fraud ke risks aur preventive measures ke baare mein aware karein.",
+        "RBI ki guidelines ke tehat, customers ko unsolicited phone calls ya emails se bachne ki salah di jaati hai.",
+        "Banks ko apne customers ke accounts mein suspicious activities ko track karna aur alert karna zaroori hai.",
+        "RBI ne banks ko digital transactions ke liye extra security measures, jaise 2-factor authentication, ko implement karne ki direction di hai."
+      ]
+    }
+    ,
+      {
+        "tag": "basic_understanding_fraud",
+        "patterns": [
+          "Digital fraud kya hota hai?",
+          "Digital fraud ka matlab kya hai?",
+          "Kya sabhi frauds online hote hain?",
+          "Cybercrime aur digital fraud ek hi cheez hain?"
+        ],
+        "responses": [
+          "Digital fraud ek aisa process hai jisme fraudster online mediums ka use karke kisi se paisa ya personal information chura lete hain.",
+          "Nahi, sabhi frauds online nahi hote. Offline bhi kai types ke frauds hote hain jaise cheque frauds, identity theft, etc.",
+          "Cybercrime aur digital fraud closely related hain, lekin cybercrime ek broader term hai, jo internet ya computer systems ka misuse karte hain, jabki digital fraud specific online transactions ya activities ko refer karta hai."
+        ]
+      },
+      {
+        "tag": "red_flags_suspicious_activities",
+        "patterns": [
+          "Agar mujhe ek unknown number se OTP maangi jaye, to kya mujhe dena chahiye?",
+          "Kya mujhe unknown number se OTP dena chahiye?",
+          "Bank ki taraf se agar call aaye to kya karein?",
+          "Agar kisi website ka URL 'https' nahi hai, to kya wo safe hai?"
+        ],
+        "responses": [
+          "Agar unknown number se OTP maangi jaye, to kabhi bhi na dein. Banks aur institutions aapse OTP kabhi phone ya email par nahi maangte.",
+          "Unknown number se OTP maangne par call ko turant end karein aur apne bank ya service provider se direct contact karein.",
+          "Agar email mein koi suspicious link ya attachment ho, to wo fraud ho sakti hai. Hamesha sender ka email address verify karein.",
+          "Fake email ko identify karne ke liye, check karein ki sender ka email address legitimate hai ya nahi, aur email mein koi grammatical errors ya urgent language to nahi use hui.",
+          "Bank se aaye fraud calls ko handle karte waqt, call ko turant end karein aur apne bank ki official helpline se contact karein.",
+          "Bank se call aane par apne account details share na karein. Unka phone number apne bank ki website ya official documents se verify karein.",
+          "Agar kisi website ka URL 'https' nahi hai, to wo website secure nahi hai. Always look for 'https://' in the URL before sharing personal information."
+        ]
+      }
+      ,
+        {
+          "tag": "two_factor_authentication",
+          "patterns": [
+            "Two-factor authentication kya hai ?",
+            "2 Factor Authentication kya hota hai?",
+            "Two-factor authentication ko enable karne ke liye kya steps hain?"
+          ],
+          "responses": [
+            "Two-factor authentication (2FA) ek security process hai jisme aapko apne password ke alawa ek extra verification step complete karna padta hai, jaise OTP ya authentication app.",
+            "2FA ko enable karne ke liye apne account ke security settings me jaakar 2FA option ko select karein aur apne mobile number ya authentication app ko link karein.",
+            "2FA ke through aapke account ko extra layer of security milti hai, jo unauthorized logon ko aapka account hack karne se rokta hai."
+          ]
+        },
+        
+        {
+          "tag": "antivirus_for_fraud_prevention",
+          "patterns": [
+            "Antivirus software frauds rokne mein kitna helpful hai?",
+            "Antivirus frauds se bachne mein kitna effective hai?",
+            "Fraud se bachne ke liye antivirus software kitna zaroori hai?",
+            "Antivirus software fraud prevention mein kis tarah madad karta hai?"
+          ],
+          "responses": [
+            "Antivirus software aapke device ko malware, viruses, aur phishing attacks se protect karta hai, jo fraudsters aapke personal data ko churaane ke liye use karte hain.",
+            "Antivirus software regularly aapke device ko scan karta hai aur suspicious files ko detect karke unhe remove kar leta hai, isse fraud hone ke chances kam ho jate hain.",
+            "Fraud se bachne ke liye antivirus software bahut zaroori hai, kyunki yeh aapko cyber threats se protect karta hai aur aapke device ko secure rakhta hai."
+          ]
+        },
+        {
+          "tag": "strong_password_creation",
+          "patterns": [
+            "Strong password kya hota hai?",
+            "Strong password banane ke liye kya tips hain?"
+          ],
+          "responses": [
+            "Strong password banane ke liye usmein uppercase letters, lowercase letters, numbers, aur special characters ka combination hona chahiye.",
+            "Password ko 12 ya usse zyada characters ka banana chahiye aur koi easily guessable word, jaise 'password123', use na karein.",
+            "Apne password ko regularly update karein aur har account ke liye unique password ka use karein. Password manager ka use bhi kar sakte hain.",
+            "Two-factor authentication ko enable karke apne password ko aur bhi secure bana sakte hain."
+          ]
+        }
+        ,
+        
+          {
+            "tag": "online_gaming_fraud",
+            "patterns": [
+              "Gaming frauds se bachne ke liye kya karein?"
+            ],
+            "responses": [
+              "Online gaming frauds aksar fake game offers, fake prizes, ya in-app purchases ke through hote hain, jisme fraudsters aapke payment details chura lete hain.",
+              "Online games mein fraud ka shikar hone se bachne ke liye trusted platforms par hi games khelein aur unknown sources se game downloads se bachen.",
+              "Agar kisi online game mein aapko unrealistic rewards ya free coins dikhaye ja rahe hain, to wo scam ho sakta hai. Kabhi bhi apna payment information aise games mein na daalein.",
+              "Gaming frauds se bachne ke liye apne accounts ka password strong rakhein aur do-factor authentication enable karein, agar available ho."
+            ]
+          }
+          ,
+            
+            {
+              "tag": "simple_phone_user_fraud",
+              "patterns": [
+                "Ek simple phone user fraud ka shikar ho sakta hai?",
+                "Kya simple phone use karne wale log bhi fraud ka shikar ho sakte hain?",
+                "Agar mere paas basic phone hai to kya mujhe fraud ka khatra hai?",
+                "Simple phone users ko fraud ka risk kitna hota hai?"
+              ],
+              "responses": [
+                "Haan, simple phone users bhi fraud ka shikar ho sakte hain. Fraudsters har tarah ke devices aur methods ka use karte hain, jaise SMS-based phishing (smishing) ya fake call scams.",
+                "Agar aap basic phone ka use karte hain, to bhi aapko fraud se bachne ke liye apne personal information ko secure rakhna zaroori hai.",
+                "Simple phone pe bhi fraud hota hai, isliye kabhi bhi apna PIN, OTP ya bank details kisi unknown person ke saath share na karein."
+              ]
+            },
+            {
+              "tag": "fraud_warning",
+              "patterns": [
+                "Kya OTP dena kabhi bhi safe ho sakta hai?",
+                "OTP dena safe hai ya nahi?",
+                "Kya OTP ko share karna kabhi safe ho sakta hai?",
+                "OTP share karna kab safe hai?",
+                "Kya job scam ke liye advance payment dena sahi hai?",
+                "Online shopping site pe advance payment karna safe hai?",
+                "Bank se OTP mangne ka case fraud ho sakta hai?"
+              ],
+              "responses": [
+                "OTP dena kabhi bhi safe nahi hota, jab tak aap apne identity ko verify nahi kar lete. Koi bhi legitimate organization aapko OTP ke liye call nahi karegi ya SMS par OTP nahi maangegi.",
+                "Agar aapko kisi unknown source se OTP maangi jaye, to wo fraud ho sakta hai. OTP sirf aapke legitimate transaction ke liye hona chahiye, kabhi bhi kisi ko share na karein.",
+                "OTP ko share karna sirf uss situation mein safe hai, jab aap sure hain ki transaction secure aur verified hai. Hamesha official sources se hi transactions karein.",
+                "Agar koi aap se advance payment ke liye keh raha ho, to wo fraud ho sakta hai. Koi bhi legitimate job offer advance payment nahi maangti.",
+                "Agar aapko koi online shopping site payment maangti hai bina product ko dekhaye, to wo fraud ho sakta hai. Hamesha trusted websites pe hi shopping karein.",
+                "Bank se OTP maangna kabhi bhi secure nahi hota. Agar aapko koi bank ki taraf se OTP mangne ka message aaye to usse ignore karein aur bank se directly contact karein."
+              ]
+            },
+            {
+              "tag": "fraud_warning_hacking",
+              "patterns": [
+                "Kya hacking command dena safe hai?",
+                "Hacking ke liye command dena sahi hai ya nahi?",
+                "Kya hacking command se koi nukhsan ho sakta hai?",
+                "Hacking command dena illegal hai ya nahi?",
+                "Kya hacking tools ka use karna fraud hai?"
+              ],
+              "responses": [
+                "Hacking command dena bilkul unsafe aur illegal hai. Ye na sirf aapke liye, balki dusre logo ke liye bhi nuksan kar sakta hai.",
+                "Hacking ke liye kisi bhi tarah ka command dena fraud aur illegal hai. Aapko ise avoid karna chahiye.",
+                "Hacking command dene se aapka data, system, aur dusre logon ka data risk mein pad sakta hai. Aise activities illegal hain aur inke liye aapko kanuni karwai ka samna karna pad sakta hai.",
+                "Hacking tools ka use karna illegal hai. Agar aap hacking activities mein shamil ho, to ye kanuni karwai ka karan ban sakta hai.",
+                "Hacking command dena aur tools ka istemal fraud aur illegal practices ko badhava dene jaisa hai. Aapko hamesha ethical aur legal tariqe se kaam karna chahiye."
+              ]
+            } ,
+            {
+              "tag": "positive_feedback",
+              "patterns": [
+                "Aap kaam kar rahe ho, bahut achha!",
+                "Yeh kaam bahut accha lag raha hai.",
+                "Aapne jo kiya wo bahut accha tha.",
+                "Bahut badhiya! Aapne sab kuch sahi kiya.",
+                "Aap ka kaam dekh kar mujhe accha lag raha hai.",
+                "Bahut accha kaam kar rahe ho!",
+                "Aapne kaafi achha kaam kiya hai.",
+                "Excellent work!",
+                "Great job on that task!",
+                "good",
+                "nice"
+              ],
+              "responses": [
+                "Dhanyavaad! Aapka positive feedback mujhe aur accha karne ke liye motivate karta hai.",
+                "Shukriya! Main hamesha apna best dene ki koshish karta hoon.",
+                "Aapka encouragement bahut mahatvapurn hai, dhanyavaad!",
+                "Main aapke feedback ke liye abhari hoon. Yeh mujhe aur behtar kaam karne ki prerna deta hai.",
+                "Aapka appreciation mere liye bahut maayne rakhta hai. Main aur behtar kaam karne ki puri koshish karunga."
+              ]
+            }  
+            ,{
+              "tag": "otp_safety_myth",
+              "patterns": [
+                  "kis age ke sath fraud hone ke chances hote hai?",
+                  "in which age the digital fraud happen?",
+                  "fraud hone ki proper age "
+                  
+              ],
+              "responses": [
+                  "18-30  Is group ke log online shopping scams, social media phishing, aur fake job offers ke shikar hote hain. Digital platforms ka extensive use aur limited financial awareness unhe vulnerable banata hai.",
+                  "30-50   Middle-aged log zyada tar financial transaction scams, fake investment schemes, aur business frauds ka shikar hote hain. Inka disposable income aur professional networks fraudsters ko target karne ka mauka dete hain."
+                  
+              ]
+            },{
+              "tag": "complaint_road_maintenance",
+              "patterns": [
+                "There is a pothole on the road",
+                "The road is damaged in my area",
+                "Fix the road near my house",
+                "The street is in bad condition",
+                "I want to report a pothole"
+              ],
+              "responses": [
+                "Thank you for reporting. Please provide the location of the road issue.",
+                "We have noted your complaint about the road. Share more details for quicker resolution.",
+                "Your road maintenance issue has been logged. You can track the resolution using your complaint ID."
+              ]
+            },
+            {
+              "tag": "complaint_streetlights",
+              "patterns": [
+                "The streetlight is not working",
+                "There are no lights on my street",
+                "The streetlights are broken",
+                "I want to report a streetlight issue",
+                "The street is dark due to faulty lights"
+              ],
+              "responses": [
+                "Thank you for bringing this to our attention. Please share the street location.",
+                "Your streetlight issue has been logged. Use your complaint ID to track its resolution.",
+                "We will look into the streetlight problem. Share the specific area for a quicker fix."
+              ]
+            },
+            {
+              "tag": "complaint_waste_management",
+              "patterns": [
+                "The garbage is not being collected",
+                "Trash is overflowing in my area",
+                "Waste collection is irregular",
+                "There is a sanitation issue in my locality",
+                "I want to report a garbage issue"
+              ],
+              "responses": [
+                "Thank you for your complaint. Please provide the exact location.",
+                "We have logged your garbage issue. Use your complaint ID to track the status.",
+                "Your waste management complaint has been noted. We'll address it as soon as possible."
+              ]
+            },
+            {
+              "tag": "complaint_tracking",
+              "patterns": [
+                "I want to check the status of my complaint",
+                "Track my complaint",
+                "How can I see my complaint status?",
+                "Check my complaint resolution progress",
+                "Is my complaint resolved?"
+              ],
+              "responses": [
+                "Please provide your complaint ID to check the status.",
+                "You can track your complaint resolution using your unique ID.",
+                "Let me know your complaint ID, and I'll check the status for you."
+              ]
+            },
+            {
+              "tag": "digital_fraud_phishing",
+              "patterns": [
+                "What is phishing?",
+                "How do I avoid phishing scams?",
+                "Tips to prevent phishing",
+                "I received a fake email, what should I do?",
+                "How can I identify phishing emails?"
+              ],
+              "responses": [
+                "Phishing involves fake emails or messages to steal your information. Avoid clicking on suspicious links.",
+                "To prevent phishing, always verify sender emails and avoid sharing personal details online.",
+                "If you receive a phishing email, report it to your local cybercrime cell or at www.cybercrime.gov.in."
+              ]
+            },
+            {
+              "tag": "digital_fraud_prevention",
+              "patterns": [
+                "How do I stay safe online?",
+                "Tips for digital safety",
+                "How can I prevent online fraud?",
+                "Secure my online transactions",
+                "Avoid being scammed online"
+              ],
+              "responses": [
+                "Use strong passwords, enable two-factor authentication, and avoid public Wi-Fi for financial transactions.",
+                "Be cautious of fake websites and don't share sensitive information with unknown sources.",
+                "Always verify the authenticity of links and emails before taking action."
+              ]
+            },
+            {
+              "tag": "digital_fraud_reporting",
+              "patterns": [
+                "How do I report online fraud?",
+                "Report a cyber scam",
+                "Where can I file a fraud complaint?",
+                "Steps to report digital fraud",
+                "What to do if I am scammed online?"
+              ],
+              "responses": [
+                "You can report online fraud at www.cybercrime.gov.in or contact your local cybercrime cell.",
+                "File a complaint with detailed evidence, such as transaction IDs and email screenshots.",
+                "For reporting scams, visit your nearest police station or the official cybercrime portal."
+              ]
+    },
+    {
+      "tag": "complaint_road_maintenance",
+      "patterns": [
+        "There is a pothole on the road",
+        "The road is damaged in my area",
+        "Fix the road near my house",
+        "The street is in bad condition",
+        "I want to report a pothole"
+      ],
+      "responses": [
+        "Thank you for reporting. Please provide the location of the road issue.",
+        "We have noted your complaint about the road. Share more details for quicker resolution.",
+        "Your road maintenance issue has been logged. You can track the resolution using your complaint ID."
+      ]
+    },
+    {
+      "tag": "complaint_streetlights",
+      "patterns": [
+        "The streetlight is not working",
+        "There are no lights on my street",
+        "The streetlights are broken",
+        "I want to report a streetlight issue",
+        "The street is dark due to faulty lights"
+      ],
+      "responses": [
+        "Thank you for bringing this to our attention. Please share the street location.",
+        "Your streetlight issue has been logged. Use your complaint ID to track its resolution.",
+        "We will look into the streetlight problem. Share the specific area for a quicker fix."
+      ]
+    },
+    {
+      "tag": "complaint_waste_management",
+      "patterns": [
+        "The garbage is not being collected",
+        "Trash is overflowing in my area",
+        "Waste collection is irregular",
+        "There is a sanitation issue in my locality",
+        "I want to report a garbage issue"
+      ],
+      "responses": [
+        "Thank you for your complaint. Please provide the exact location.",
+        "We have logged your garbage issue. Use your complaint ID to track the status.",
+        "Your waste management complaint has been noted. We'll address it as soon as possible."
+      ]
+    },
+    {
+      "tag": "complaint_tracking",
+      "patterns": [
+        "I want to check the status of my complaint",
+        "Track my complaint",
+        "How can I see my complaint status?",
+        "Check my complaint resolution progress",
+        "Is my complaint resolved?"
+      ],
+      "responses": [
+        "Please provide your complaint ID to check the status.",
+        "You can track your complaint resolution using your unique ID.",
+        "Let me know your complaint ID, and I'll check the status for you."
+      ]
+    },
+    {
+      "tag": "digital_fraud_reporting",
+      "patterns": [
+        "How do I report online fraud?",
+        "Report a cyber scam",
+        "Where can I file a fraud complaint?",
+        "Steps to report digital fraud",
+        "What to do if I am scammed online?"
+      ],
+      "responses": [
+        "You can report online fraud at www.cybercrime.gov.in or contact your local cybercrime cell.",
+        "File a complaint with detailed evidence, such as transaction IDs and email screenshots.",
+        "For reporting scams, visit your nearest police station or the official cybercrime portal."
+   ]
+}
+]
+}

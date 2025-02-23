@@ -1,0 +1,47 @@
+# Virtual Environment
+myenv/
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Python Package Metadata
+pip-wheel-metadata/
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs & Caches
+*.log
+*.sqlite3
+*.db
+instance/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Flask & Database Files
+migrations/
+*.sqlite
+*.pkl
+
+# Jupyter Notebooks Checkpoints (if used)
+.ipynb_checkpoints/
+
+# Node.js (if any frontend stuff is used)
+node_modules/
+package-lock.json
+yarn.lock
+
+# TensorFlow & Model Files (if storing models locally)
+*.h5
+*.ckpt
+*.tflite
+__pycache__/
+
+# Lottie / Animation Files (if any)
+*.json
